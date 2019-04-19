@@ -10,5 +10,13 @@ def dict_del():
     adict.pop('password')
     print(adict)
 
+def dict_add():
+    adict.update(bdict)
+    print(adict)
+def dict_update():
+    adict['username'] = '闫松林'
+    print(adict)
 if __name__ == '__main__':
-    dict_del()
+    # dict_del()
+    # dict_add()
+    dict_update()
